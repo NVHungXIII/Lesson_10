@@ -1,0 +1,41 @@
+#header {
+    background-color: aqua;
+    height: 100px;
+}
+#main {
+    background-color: red;
+    height: 500px;
+    width: 70%;
+    float: left;
+    overflow: scroll;
+}
+#side-bar {
+    background-color: seagreen;
+    height: 500px;
+    width: 30%;
+    float: left;
+}
+#footer {
+    background-color: tan;
+    height: 100px;
+    clear: both;
+}
+body {
+    background-image: url(../Lesson_4/Img/mèo.png);
+}
+#header, #main, #side-bar, #footer {
+    opacity: 0.8;
+}
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+i1 {
+    height: 100px;
+}
+i2 {
+    width: 100%;
+}
+h3 {
+    font-style: italic;
+}
